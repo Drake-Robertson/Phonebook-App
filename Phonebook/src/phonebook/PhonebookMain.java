@@ -59,7 +59,7 @@ public class PhonebookMain {
 			case 3:
 				Person deletePerson = new Person();
 				System.out.println("To delete a record, enter a phone number to search using the following format ");
-				String numberToDelete = sc.nextLine(); // 555-555-5555
+				String numberToDelete = sc.nextLine();
 				s1.searchByPhone(numberToDelete);
 				s1.deleteEntry(numberToDelete);
 				System.out.println("Item deleted");
